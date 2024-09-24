@@ -1,7 +1,7 @@
-#include "bin/Rendering/Drawer.h"
-#include "bin/Utilities/Utils.h"
-#include "bin/Wheeler/Wheeler.h"
-#include "bin/Texts.h"
+#include "../../Rendering/Drawer.h"
+#include "../../Utilities/Utils.h"
+#include "../../Wheeler/Wheeler.h"
+#include "../../Texts.h"
 #include "WheelItemAlchemy.h"
 
 WheelItemAlchemy::WheelItemAlchemy(RE::AlchemyItem *a_alchemyItem)

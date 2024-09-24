@@ -1,5 +1,5 @@
-#include "bin/Rendering/TextureManager.h"
-#include "bin/Rendering/Drawer.h"
+#include "../../Rendering/TextureManager.h"
+#include "../../Rendering/Drawer.h"
 #include "WheelItemMisc.h"
 
 WheelItemMisc::WheelItemMisc(RE::TESObjectMISC* a_miscItem)

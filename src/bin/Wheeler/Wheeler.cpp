@@ -8,9 +8,9 @@
 #include "imgui.h"
 #include "imgui_internal.h"
 
-#include "bin/Rendering/Drawer.h"
-#include "bin/Utilities/Utils.h"
-#include "bin/Texts.h"
+#include "../Rendering/Drawer.h"
+#include "../Utilities/Utils.h"
+#include "../Texts.h"
 
 #include "WheelItems/WheelItem.h"
 #include "WheelItems/WheelItemMutable.h"
@@ -285,7 +285,7 @@ void Wheeler::OpenWheeler()
 		}
 		_state = Config::Animation::FadeTime > 0 ? WheelState::KOpening : WheelState::KOpened;
 		_openTimer = 0;
-		RE::PlaySoundRE(Config::Sound::SD_WHEELERTOGGLE);
+		RE::PlaySound(Config::Sound::SD_WHEELERTOGGLE);
 	}
 }
 
@@ -369,7 +369,7 @@ void Wheeler::NextWheel()
 		_wheels[_activeWheelIdx]->ResetAnimation();
 		_wheels[_activeWheelIdx]->SetHoveredEntryIndex(-1);  // reset active entry for new wheel
 		if (_wheels.size() > 1) {
-			RE::PlaySoundRE(Config::Sound::SD_WHEELSWITCH);
+			RE::PlaySound(Config::Sound::SD_WHEELSWITCH);
 		}
 	}
 }
@@ -392,7 +392,7 @@ void Wheeler::PrevWheel()
 		_wheels[_activeWheelIdx]->ResetAnimation();
 		_wheels[_activeWheelIdx]->SetHoveredEntryIndex(-1);  // reset active entry for new wheel
 		if (_wheels.size() > 1) {
-			RE::PlaySoundRE(Config::Sound::SD_WHEELSWITCH);
+			RE::PlaySound(Config::Sound::SD_WHEELSWITCH);
 		}
 	}
 }

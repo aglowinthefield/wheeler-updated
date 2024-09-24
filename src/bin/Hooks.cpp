@@ -1,8 +1,8 @@
 #include "Hooks.h"
 #include "Utilities/UniqueIDHandler.h"
-#include "bin/UserInput/Input.h"
-#include "bin/Config.h"
-#include "bin/Wheeler/Wheeler.h"
+#include "UserInput/Input.h"
+#include "Config.h"
+#include "Wheeler/Wheeler.h"
 namespace Hooks
 {
 	namespace

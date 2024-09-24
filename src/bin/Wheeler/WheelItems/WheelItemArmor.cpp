@@ -1,6 +1,6 @@
 #include "WheelItemArmor.h"
-#include "bin/Rendering/Drawer.h"
-#include "bin/Utilities/Utils.h"
+#include "../../Rendering/Drawer.h"
+#include "../../Utilities/Utils.h"
 
 void WheelItemArmor::DrawSlot(ImVec2 a_center, bool a_hovered, RE::TESObjectREFR::InventoryItemMap& a_imap, DrawArgs a_drawArgs)
 {

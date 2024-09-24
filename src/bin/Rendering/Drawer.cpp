@@ -3,8 +3,9 @@
 
 #include "imgui.h"
 
-#include "bin/Utilities/Utils.h"
-#include "bin/Config.h"
+#include "../Utilities/Utils.h"
+#include "../Config.h"
+
 void Drawer::draw_text(float a_x,
 		float a_y,
 		const char* a_text,

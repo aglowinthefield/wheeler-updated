@@ -1,4 +1,4 @@
-#include "bin/Utilities/Utils.h"
+#include "../../Utilities/Utils.h"
 #include "WheelItemScroll.h"
 
 WheelItemScroll::WheelItemScroll(RE::ScrollItem* a_scroll)

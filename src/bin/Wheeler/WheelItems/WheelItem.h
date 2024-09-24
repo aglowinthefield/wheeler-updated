@@ -1,6 +1,6 @@
 #pragma once
-#include "bin/Rendering/TextureManager.h"
-#include "bin/Config.h"
+#include "../../Rendering/TextureManager.h"
+#include "../../Config.h"
 #include "nlohmann/json.hpp"
 class ImVec2;
 class WheelItem

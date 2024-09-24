@@ -1,4 +1,4 @@
-#include "bin/Rendering/Drawer.h"
+#include "../Rendering/Drawer.h"
 
 #include "WheelItems/WheelItem.h"
 #include "WheelItems/WheelItemFactory.h"
@@ -223,7 +223,7 @@ void WheelEntry::PrevItem()
 		}
 	}
 	if (_items.size() > 1) {
-		RE::PlaySoundRE(Config::Sound::SD_ITEMSWITCH);
+		RE::PlaySound(Config::Sound::SD_ITEMSWITCH);
 	}
 }
 
@@ -236,7 +236,7 @@ void WheelEntry::NextItem()
 		_selectedItem = 0;
 	}
 	if (_items.size() > 1) {
-		RE::PlaySoundRE(Config::Sound::SD_ITEMSWITCH);
+		RE::PlaySound(Config::Sound::SD_ITEMSWITCH);
 	}
 }
 

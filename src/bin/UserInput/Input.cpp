@@ -7,7 +7,7 @@
 #include <imgui.h>
 
 
-#include "bin/Wheeler/Wheeler.h"
+#include "../Wheeler/Wheeler.h"
 #include "Controls.h"
 #define IM_VK_KEYPAD_ENTER (VK_RETURN + 256)
 

@@ -1,6 +1,6 @@
 #include "WheelItem.h"
-#include "bin/Rendering/Drawer.h"
-#include "bin/Config.h"
+#include "../../Rendering/Drawer.h"
+#include "../../Config.h"
 void WheelItem::DrawSlot(ImVec2 a_center, bool a_hovered, RE::TESObjectREFR::InventoryItemMap& a_imap, DrawArgs a_drawArgs)
 {
 	//Drawer::draw_element(_texture, ImVec2(0, 0), ImVec2(100, 100), 0);

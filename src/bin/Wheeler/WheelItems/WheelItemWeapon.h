@@ -1,6 +1,6 @@
 #pragma once
 #include "WheelItemMutable.h"
-#include "bin/Animation/TimeColorInterpolator.h"
+#include "../../Animation/TimeColorInterpolator.h"
 
 class TimeColorInterpolator;
 class WheelItemWeapon : public WheelItemMutable 

@@ -9,12 +9,12 @@
 
 #include "imgui_internal.h"
 // stole this from MaxSu's detection meter
-#include "include/lib/imgui_freetype.h"
+#include "../../include/lib/imgui_freetype.h"
 
-#include "bin/Wheeler/Wheeler.h"
-#include "bin/Rendering/TextureManager.h"
+#include "../Wheeler/Wheeler.h"
+#include "../Rendering/TextureManager.h"
 
-#include "bin/Animation/TimeInterpolator/TimeInterpolatorManager.h"
+#include "../Animation/TimeInterpolator/TimeInterpolatorManager.h"
 
 
 namespace stl

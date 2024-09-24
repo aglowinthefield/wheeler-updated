@@ -4,7 +4,7 @@
 #include "nlohmann/json.hpp"
 #include "imgui.h"
 
-#include "bin/Config.h"
+#include "../Config.h"
 #include "Wheel.h"
 class Wheeler
 {

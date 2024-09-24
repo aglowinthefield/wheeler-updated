@@ -1,6 +1,6 @@
 #include "WheelItemAmmo.h"
-#include "bin/Rendering/Drawer.h"
-#include "bin/Rendering/TextureManager.h"
+#include "../../Rendering/Drawer.h"
+#include "../../Rendering/TextureManager.h"
 
 WheelItemAmmo::WheelItemAmmo(RE::TESAmmo* a_ammo)
 {

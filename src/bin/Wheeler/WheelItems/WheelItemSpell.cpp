@@ -1,5 +1,5 @@
-#include "bin/Utilities/Utils.h"
-#include "bin/Rendering/Drawer.h"
+#include "../../Utilities/Utils.h"
+#include "../../Rendering/Drawer.h"
 
 #include "WheelItemSpell.h"
 WheelItemSpell::WheelItemSpell(RE::SpellItem* a_spell)

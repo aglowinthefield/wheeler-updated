@@ -1,5 +1,5 @@
 #include "Controls.h"
-#include "bin/Wheeler/Wheeler.h"
+#include "../Wheeler/Wheeler.h"
 void Controls::Init()
 {
 	BindAllInputsFromConfig();

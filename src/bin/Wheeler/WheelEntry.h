@@ -3,8 +3,8 @@
 #include "nlohmann/json.hpp"
 #include "imgui.h"
 
-#include "bin/Animation/TimeInterpolator/TimeFloatInterpolator.h"
-#include "bin/Animation/TimeBounceInterpolator.h"
+#include "../Animation/TimeInterpolator/TimeFloatInterpolator.h"
+#include "../Animation/TimeBounceInterpolator.h"
 class WheelItem;
 class WheelEntry
 {

@@ -1,7 +1,7 @@
 #include "nlohmann/json.hpp"
 
 #include "SerializationEntry.h"
-#include "bin/Wheeler/Wheeler.h"
+#include "../Wheeler/Wheeler.h"
 
 namespace Serial
 {

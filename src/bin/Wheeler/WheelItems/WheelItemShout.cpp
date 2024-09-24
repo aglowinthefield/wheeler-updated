@@ -1,5 +1,5 @@
-#include "bin/Rendering/Drawer.h"
-#include "bin/Rendering/TextureManager.h"
+#include "../../Rendering/Drawer.h"
+#include "../../Rendering/TextureManager.h"
 #include "WheelItemShout.h"
 
 WheelItemShout::WheelItemShout(RE::TESShout* a_shout)

@@ -1,9 +1,9 @@
 #include "TextureManager.h"
 #define NANOSVG_IMPLEMENTATION
 #define NANOSVG_ALL_COLOR_KEYWORDS
-#include "include/lib/nanosvg.h"
+#include "../../include/lib/nanosvg.h"
 #define NANOSVGRAST_IMPLEMENTATION
-#include "include/lib/nanosvgrast.h"
+#include "../../include/lib/nanosvgrast.h"
 
 
 void Texture::Init()
